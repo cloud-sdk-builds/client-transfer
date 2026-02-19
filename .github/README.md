@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-transfer`](https://www.npmjs.com/package/@aws-sdk/client-transfer/v/3.357.0).
+[`@aws-sdk/client-transfer`](https://www.npmjs.com/package/@aws-sdk/client-transfer/v/3.358.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-transfer@3.357.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-transfer@3.358.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-3U+07P2eJYxs9aS4YmpTshDYzzdkNrw98O0OcB2BTs+FfpBssQtJb+U6EKiviETw
+sha384-8B/ZX5tJKLxlW/b9z2XJniMb+HG6pijx2HLh+e3CtIuBNyOXhtrl93t6zN2FLISh
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-transfer": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-transfer@3.357.0/index.min.mjs"
+            "@aws-sdk/client-transfer": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-transfer@3.358.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-transfer@3.357.0/index.min.mjs": "sha384-3U+07P2eJYxs9aS4YmpTshDYzzdkNrw98O0OcB2BTs+FfpBssQtJb+U6EKiviETw"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-transfer@3.358.0/index.min.mjs": "sha384-8B/ZX5tJKLxlW/b9z2XJniMb+HG6pijx2HLh+e3CtIuBNyOXhtrl93t6zN2FLISh"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-transfer": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-transfer@3.357.0/index.min.mjs"
+                        "@aws-sdk/client-transfer": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-transfer@3.358.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-transfer@3.357.0/index.min.mjs": "sha384-3U+07P2eJYxs9aS4YmpTshDYzzdkNrw98O0OcB2BTs+FfpBssQtJb+U6EKiviETw"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-transfer@3.358.0/index.min.mjs": "sha384-8B/ZX5tJKLxlW/b9z2XJniMb+HG6pijx2HLh+e3CtIuBNyOXhtrl93t6zN2FLISh"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.357.0`)
+* Always pin to a specific version (`@3.358.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-transfer/blob/refs/tags/3.357.0/LICENSE
+https://github.com/cloud-sdk-builds/client-transfer/blob/refs/tags/3.358.0/LICENSE
 ```
 
 ---
